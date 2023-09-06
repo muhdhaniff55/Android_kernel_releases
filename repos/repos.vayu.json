@@ -1,8 +1,8 @@
 [
   {
     "kernelSource": {
-      "name": "ChanandlerBong",
-      "repo": "https://github.com/sanjeevstunner/android_kernel_xiaomi_vayu",
+      "name": "GXC-Kernel",
+      "repo": "https://github.com/GXC2356/kernel_xiaomi_vayu.git",
       "branch": "ksu",
       "device": "vayu",
       "defconfig": "vayu_defconfig"
@@ -10,8 +10,8 @@
     "withKernelSU": true,
     "toolchains": [
       {
-        "repo": "https://github.com/LineageOS/android_prebuilts_clang_kernel_linux-x86_clang-r416183b",
-        "branch": "lineage-20.0",
+        "repo": "https://gitlab.com/crdroidandroid/android_prebuilts_clang_host_linux-x86_clang-r498229b.git",
+        "branch": "13.0",
         "name": "clang",
         "binPath": ["bin"]
       },
