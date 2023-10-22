@@ -3,7 +3,7 @@
     "kernelSource": {
       "name": "GXC-Kernel",
       "repo": "https://github.com/orges/android_kernel_xiaomi_vayu.git",
-      "branch": "thirteen",
+      "branch": "topaz-orges",
       "device": "vayu",
       "defconfig": "vayu_defconfig"
     },
