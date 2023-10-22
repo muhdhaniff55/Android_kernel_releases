@@ -2,22 +2,22 @@
   {
     "kernelSource": {
       "name": "GXC-Kernel",
-      "repo": "https://github.com/GXC2356/android_kernel_xiaomi_vayu.git",
-      "branch": "tiramisu",
+      "repo": "https://github.com/GXC2356/kernel_xiaomi_vayu.git",
+      "branch": "thirteen",
       "device": "vayu",
       "defconfig": "vayu_defconfig"
     },
     "withKernelSU": true,
     "toolchains": [
       {
-        "repo": "https://gitlab.com/crdroidandroid/android_prebuilts_clang_host_linux-x86_clang-r498229b.git",
-        "branch": "13.0",
+        "repo": "https://github.com/LineageOS/android_prebuilts_clang_kernel_linux-x86_clang-r416183b",
+        "branch": "lineage-20.0",
         "name": "clang",
         "binPath": ["bin"]
       },
       {
-        "repo": "https://android.googlesource.com/platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9",
-        "branch": "android10-release",
+        "repo": "https://github.com/LineageOS/android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9",
+        "branch": "lineage-19.1",
         "name": "gcc",
         "binPath": ["bin"]
       }
