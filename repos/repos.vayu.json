@@ -1,11 +1,11 @@
 [
   {
     "kernelSource": {
-      "name": "GXC-Kernel",
-      "repo": "https://github.com/orges/android_kernel_xiaomi_vayu.git",
-      "branch": "topaz-orges",
+      "name": "SkylineKernel",
+      "repo": "https://github.com/GXC2356/kernel_xiaomi_vayu.git",
+      "branch": "thirteen",
       "device": "vayu",
-      "defconfig": "vayu_defconfig"
+      "defconfig": ".config"
     },
     "withKernelSU": true,
     "toolchains": [
