@@ -5,7 +5,7 @@
       "repo": "https://github.com/GXC2356/kernel_xiaomi_vayu.git",
       "branch": "thirteen",
       "device": "vayu",
-      "defconfig": "vayu_user_defconfig"
+      "defconfig": "vayu_defconfig"
     },
     "withKernelSU": true,
     "toolchains": [
