@@ -3,7 +3,7 @@
     "kernelSource": {
       "name": "GXC-Kernel",
       "repo": "https://github.com/GXC2356/kernel_xiaomi_vayu-GXC-kernel.git",
-      "branch": "majn",
+      "branch": "main",
       "device": "vayu",
       "defconfig": "defconfig"
     },
