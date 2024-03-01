@@ -3,11 +3,11 @@
     "kernelSource": {
       "name": "SkylineKernel",
       "repo": "https://github.com/SkylineUI-Devices/kernel_xiaomi_vayu.git",
-      "branch": "fourteen-ksu",
+      "branch": "fourteen",
       "device": "vayu",
       "defconfig": "vayu_defconfig"
     },
-    "withKernelSU": true,
+    "withKernelSU": false,
     "toolchains": [
       {
         "repo": "https://gitlab.com/crdroidandroid/android_prebuilts_clang_host_linux-x86_clang-r510928.git",
