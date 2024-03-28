@@ -3,7 +3,7 @@
     "kernelSource": {
       "name": "SkylineKernel",
       "repo": "https://github.com/GXC2356/platform_kernel_xiaomi_vayu.git",
-      "branch": "staging",
+      "branch": "fourteen",
       "device": "vayu",
       "defconfig": "vayu_user_defconfig"
     },
