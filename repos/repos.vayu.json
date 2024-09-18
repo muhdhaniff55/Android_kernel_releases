@@ -2,7 +2,7 @@
   {
     "kernelSource": {
       "name": "Redline",
-      "repo": "https://github.com/GXC2356/platform_kernel_xiaomi_vayu.git",
+      "repo": "https://github.com/Sizo69/kernel_xiaomi_vayu.git",
       "branch": "main",
       "device": "vayu",
       "defconfig": "vayu_user_defconfig"
