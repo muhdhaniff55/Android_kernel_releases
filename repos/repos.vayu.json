@@ -37,7 +37,7 @@
     "AnyKernel3": {
       "use": true,
       "release": true,
-      "repo": "https://github.com/muhdhaniff55/AnyKernel3",
+      "repo": "https://github.com/muhdhaniff55/AnyKernel3.git",
       "branch": "master"
     }
   }
