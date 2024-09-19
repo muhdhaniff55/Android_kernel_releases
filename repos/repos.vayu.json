@@ -1,11 +1,11 @@
 [
   {
     "kernelSource": {
-      "name": "Derp-KSU",
-      "repo": "https://github.com/bagaskara815/kernel_xiaomi_vayu.git",
-      "branch": "14-derp",
+      "name": "SkylineKsu",
+      "repo": "https://github.com/GXC2356/platform_kernel_xiaomi_vayu.git",
+      "branch": "KernelSU",
       "device": "vayu",
-      "defconfig": "vayu_defconfig"
+      "defconfig": "vayu_user_defconfig"
     },
     "withKernelSU": false,
     "toolchains": [
@@ -37,8 +37,8 @@
     "AnyKernel3": {
       "use": true,
       "release": true,
-      "repo": "https://github.com/bagaskara815/AnyKernel3.git",
-      "branch": "master"
+      "repo": "https://github.com/GXC2356/AnyKernel3.git",
+      "branch": "ksu"
     }
   }
 ]
