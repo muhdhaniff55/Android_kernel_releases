@@ -3,7 +3,7 @@
     "kernelSource": {
       "name": "Perry-RED",
       "repo": "https://github.com/Sizo69/kernel_xiaomi_vayu.git",
-      "branch": "main",
+      "branch": "new-branch",
       "device": "vayu",
       "defconfig": "vayu_user_defconfig"
     },
