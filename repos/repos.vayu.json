@@ -1,9 +1,9 @@
 [
   {
     "kernelSource": {
-      "name": "SkylineKsu",
-      "repo": "https://github.com/GXC2356/platform_kernel_xiaomi_vayu.git",
-      "branch": "KernelSU",
+      "name": "NeoPerf",
+      "repo": "https://github.com/muhdhaniff55/android_kernel_xiaomi_vayu.git",
+      "branch": "main",
       "device": "vayu",
       "defconfig": "vayu_user_defconfig"
     },
@@ -37,8 +37,8 @@
     "AnyKernel3": {
       "use": true,
       "release": true,
-      "repo": "https://github.com/GXC2356/AnyKernel3.git",
-      "branch": "ksu"
+      "repo": "https://github.com/muhdhaniff55/AnyKernel3",
+      "branch": "master"
     }
   }
 ]
