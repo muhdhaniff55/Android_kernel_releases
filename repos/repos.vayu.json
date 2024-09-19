@@ -2,7 +2,7 @@
   {
     "kernelSource": {
       "name": "Perry-RED",
-      "repo": "https://github.com/Sizo69/kernel_vayu_old.git",
+      "repo": "https://github.com/Sizo69/android_kernel_xiaomi_sm8150.git",
       "branch": "main",
       "device": "vayu",
       "defconfig": "vayu_user_defconfig"
