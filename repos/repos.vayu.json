@@ -39,9 +39,6 @@
       "release": true,
       "repo": "https://github.com/Sizo69/AnyKernel3.git",
       "branch": "master"
-    },
-    "buildCommands": [
-      "make clean"
-    ]
+    }
   }
 ]
