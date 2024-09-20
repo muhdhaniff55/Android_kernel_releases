@@ -1,0 +1,44 @@
+[
+  {
+    "kernelSource": {
+      "name": "NeoPerf",
+      "repo": "https://github.com/muhdhaniff55/android_kernel_xiaomi_vayu.git",
+      "branch": "main",
+      "device": "vayu",
+      "defconfig": "vayu_user_defconfig"
+    },
+    "withKernelSU": false,
+    "toolchains": [
+      {
+        "repo": "https://gitlab.com/muhdhaniff55/android_prebuilts_clang_host_linux-x86_clang-r536225.git",
+        "branch": "main",
+        "name": "clang",
+        "binPath": ["bin"]
+      },
+      {
+        "repo": "https://android.googlesource.com/platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9",
+        "branch": "android12L-release",
+        "name": "gcc",
+        "binPath": ["bin"]
+      }
+    ],
+    "ccache": true,
+    "params": {
+      "ARCH": "arm64",
+      "CC": "clang/bin/clang",
+      "externalCommand": {
+        "LLVM": "1",
+        "CLANG_TRIPLE": "aarch64-linux-gnu-",
+        "CROSS_COMPILE": "aarch64-linux-android-",
+        "CROSS_COMPILE_ARM32": "arm-linux-androideabi-",
+        "CROSS_COMPILE_COMPAT": "arm-linux-androideabi-"
+      }
+    },
+    "AnyKernel3": {
+      "use": true,
+      "release": true,
+      "repo": "https://github.com/muhdhaniff55/AnyKernel3.git",
+      "branch": "master"
+    }
+  }
+]
