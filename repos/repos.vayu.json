@@ -1,8 +1,8 @@
 [
   {
     "kernelSource": {
-      "name": "NeoPerf",
-      "repo": "https://github.com/muhdhaniff55/android_kernel_xiaomi_vayu.git",
+      "name": "Skyline",
+      "repo": "https://github.com/GXC2356/platform_kernel_xiaomi_vayu.git",
       "branch": "main",
       "device": "vayu",
       "defconfig": "vayu_user_defconfig"
