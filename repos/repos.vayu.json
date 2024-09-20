@@ -1,9 +1,9 @@
 [
   {
     "kernelSource": {
-      "name": "Skyline",
+      "name": "SkylineKsu",
       "repo": "https://github.com/GXC2356/platform_kernel_xiaomi_vayu.git",
-      "branch": "main",
+      "branch": "KernelSU",
       "device": "vayu",
       "defconfig": "vayu_user_defconfig"
     },
