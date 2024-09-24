@@ -28,10 +28,12 @@
       "CC": "clang/bin/clang",
       "externalCommand": {
         "LLVM": "1",
-        "CLANG_TRIPLE": "aarch64-linux-gnu-",
-        "CROSS_COMPILE": "aarch64-linux-android-",
-        "CROSS_COMPILE_ARM32": "arm-linux-androideabi-",
-        "CROSS_COMPILE_COMPAT": "arm-linux-androideabi-"
+        "AR": "llvm-ar",
+        "LLVM_NM": "llvm-nm",
+        "OBJCOPY": "llvm-objcopy",
+        "LD": "ld.lld",
+        "NM": "llvm-nm",
+        "LLVM_IAS": "1"
       }
     },
     "AnyKernel3": {
